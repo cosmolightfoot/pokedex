@@ -41,24 +41,43 @@ main {
     z-index: 2;
 }
 .poke-number, .poke-name {
-    font-size: 12px;
+    font-size: 5px;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+.poke-title {
+    margin: -10px;
+    text-align: center;
+    width: 60px;
+    height: 10px;
+    height: 1%;
 }
 
 .poke-entry {
     width: 62px;
     height: 62px;
-    border: 3px solid #19191ae4;
+    border: 2px solid #19191a00;
     border-radius: 2px;
     margin: 10px;
+    padding: -10px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
 }
 
-.poke-icon {
+.type-boxes {
+    width: 15px;
+    height: 15px;
+    margin: 0px;
+    align-self: flex-end;
+}
 
+.poke-icon {
         width: 50px;
+        margin-top: 0px;
 }
 
 p {
